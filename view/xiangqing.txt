@@ -1,0 +1,21 @@
+Root聊天工具
+
+一.配置环境: python3
+	  pycharm --QtDesigner
+	  	  --pyUIc
+	  Qt5
+二.项目结构
+	|---server.py     服务端
+	|---module.mysqlRoot 数据库
+
+	|---client.py     客户端(登录界面)
+		|----module.haoyou_select    增删好友界面
+		|----module.pushbutton     注册界面
+
+	主要技术 : TCP socket 通信, PyQt5 图形化, Qss页面美化, 多线程,  IO多路复用,  数据库MySQL
+
+	设计流程 : 
+
+		客户端 : 登录请求, 注册请求, 聊天请求, 离线消息请求, 好友请求, 退出请求, 接收好友消息, 接收服务端响应消息
+
+		服务端 : 并发连接, 并响应客户端各种请求, 分别处理

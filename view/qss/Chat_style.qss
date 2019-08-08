@@ -1,0 +1,114 @@
+QWidget#ChatForm{
+    background: url("images/Chat.jpg") no-repeat
+
+}
+QLabel#f_avatar_label{
+    border-radius: 50%;
+}
+QLabel#my_avatar_label{
+    border-radius: 50%;
+}
+QLabel#f_avatar_label:hover,QLabel#my_avatar_label:hover{
+    border: 2px solid #fff;
+}
+QLabel#f_nickname_label{
+    font-size: 24px;
+    font-weight: bold;
+    color: #818990;
+}
+QLabel#address_label,QLabel#birthday_label,QLabel#email_label,QLabel#tel_label{
+    font-size: 16px;
+    font-weight: bold;
+    color: #D7DCE2;
+}
+QLabel#style_label{
+    font-size:16px;
+    color: #818990;
+}
+QLabel#chatname_label{
+    font-size: 24px;
+    font-weight: bold;
+    color: #AAE0DB;
+}
+QLabel#onlinestatus_label{
+    font-size: 16px;
+    font-weight: bold;
+    color: #818990;
+}
+QTextBrowser#textBrowser{
+    border: none;
+    font-size: 20px;
+    color: #58C9FF;
+}
+QTextEdit#textEdit{
+    border: none;
+    font-size: 16px;
+}
+
+QPushButton#send_Button{
+    background: url("images/btn_send.png") transparent no-repeat;
+}
+QPushButton#send_Button:hover{
+    background: url("images/btn_sendhover.png") transparent no-repeat;
+}
+QPushButton#quit_Button{
+    background: url("images/btn_quit.png") transparent no-repeat;
+}
+QPushButton#quit_Button:hover{
+    background: url("images/btn_quithover.png") transparent no-repeat;
+}
+
+QPushButton#first_pushButton{
+    background: url("images/test1.png") transparent no-repeat;
+}
+QPushButton#first_pushButton:hover{
+    background: url("images/icon.png") transparent no-repeat;
+}
+
+QPushButton#pushButton{
+    background: url("images/add.gif") transparent no-repeat;
+}
+QPushButton#pushButton:hover{
+    background: url("images/addhover.png") transparent no-repeat;
+}
+
+QPushButton#pushButton_4{
+    background: url("images/upfile.gif") transparent no-repeat;
+}
+QPushButton#pushButton_4:hover{
+    background: url("images/upfilehover.png") transparent no-repeat;
+}
+QPushButton#pushButton_3{
+    background: url("images/wea.png") transparent no-repeat;
+}
+QPushButton#pushButton_3:hover{
+    background: url("images/weahover.png") transparent no-repeat;
+}
+
+QPushButton#pushButton_2{
+    background: url("images/info.gif") transparent no-repeat;
+}
+QPushButton#pushButton_2:hover{
+    background: url("images/infohover.png") transparent no-repeat;
+}
+
+QPushButton#pushButton_6{
+    background: url("images/file.jpg") transparent no-repeat;
+}
+QPushButton#pushButton_6:hover{
+    background: url("images/filehonver.png") transparent no-repeat;
+}
+
+QPushButton#pushButton_7{
+    background: url("images/shuaxin.png") transparent no-repeat;
+}
+QPushButton#pushButton_7:hover{
+    background: url("images/shuaxinhover.png") transparent no-repeat;
+}
+
+QPushButton#pushButton_5{
+    background: url("images/Chat.gif") transparent no-repeat;
+}
+QPushButton#pushButton_5:hover{
+    background: url("images/Chathover.gif") transparent no-repeat;
+}
